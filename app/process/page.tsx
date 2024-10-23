@@ -9,9 +9,6 @@ import { PageIntro } from "@/components/PageIntro";
 import { SectionIntro } from "@/components/SectionIntro";
 import { StylizedImage } from "@/components/StylizedImage";
 import { TagList, TagListItem } from "@/components/TagList";
-import imageLaptop from "@/images/laptop.jpg";
-import imageMeeting from "@/images/meeting.jpg";
-import imageWhiteboard from "@/images/whiteboard.jpg";
 
 function Section({
   title,
@@ -53,7 +50,7 @@ function Section({
 
 function DigitalPrinting() {
   return (
-    <Section title="Digital Printing" image={{ src: imageWhiteboard }}>
+    <Section title="Digital Printing" image={{ src: "https://i.imgur.com/gkffBNf.jpeg" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Layanan digital printing kami menawarkan solusi inovatif untuk
@@ -106,7 +103,7 @@ function DigitalPrinting() {
 
 function FlatPrinting() {
   return (
-    <Section title="Hijab Finishing" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Hijab Finishing" image={{ src: "https://i.imgur.com/gkffBNf.jpeg", shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Layanan flat printing kami mengedepankan teknik pencetakan yang
@@ -152,7 +149,7 @@ function FlatPrinting() {
 
 function YarnTwisting() {
   return (
-    <Section title="Yarn Twisting" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Yarn Twisting" image={{ src: "https://i.imgur.com/gkffBNf.jpeg", shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Layanan yarn twisting kami menciptakan hijab dengan tekstur unik dan
@@ -197,7 +194,7 @@ function YarnTwisting() {
 
 function Weaving() {
   return (
-    <Section title="Weaving" image={{ src: imageWhiteboard }}>
+    <Section title="Weaving" image={{ src: "https://i.imgur.com/gkffBNf.jpeg" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Proses weaving atau tenun adalah salah satu teknik tertua dalam
@@ -242,7 +239,7 @@ function Weaving() {
 
 function Knitting() {
   return (
-    <Section title="Knitting" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Knitting" image={{ src: "https://i.imgur.com/gkffBNf.jpeg", shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Proses knitting atau merajut yang kami gunakan dalam produksi kain
@@ -287,7 +284,7 @@ function Knitting() {
 
 function DyeingFinishing() {
   return (
-    <Section title="Dyeing & Finishing" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Dyeing & Finishing" image={{ src: "https://i.imgur.com/gkffBNf.jpeg", shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Layanan dyeing & finishing kami menawarkan proses pewarnaan dan

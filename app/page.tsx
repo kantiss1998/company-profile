@@ -1,15 +1,12 @@
 import { type Metadata } from "next";
-import Image from "next/image";
-import clsx from "clsx";
 
 import { ContactSection } from "@/components/ContactSection";
 import { Container } from "@/components/Container";
-import { FadeIn, FadeInStagger } from "@/components/FadeIn";
+import { FadeIn } from "@/components/FadeIn";
 import { List, ListItem } from "@/components/List";
 import { SectionIntro } from "@/components/SectionIntro";
 import { StylizedImage } from "@/components/StylizedImage";
 import Clients from "../components/Client";
-import imageLaptop from "@/images/Team-Produksi.png";
 import Technology from "@/components/Technology";
 import { Button } from "@/components/Button";
 import Link from "next/link";
@@ -59,7 +56,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src="https://i.imgur.com/gkffBNf.jpeg"
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
