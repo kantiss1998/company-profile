@@ -14,11 +14,12 @@ export async function POST(request: NextRequest) {
       pass: "Marketingkantiss",
     },
     tls: {
-      rejectUnauthorized: false,
+      rejectUnauthorized: false, // This option might be needed if using a self-signed SSL certificate
     }
   })
 
   try {
+    // Prepare the content based on the request types
     let contentDetails = '';
     if (requestTypes.includes('services')) {
       contentDetails += `<p><strong>Services:</strong> ${services.join(', ') || 'N/A'}</p>`;
@@ -27,6 +28,7 @@ export async function POST(request: NextRequest) {
       contentDetails += `<p><strong>Products:</strong> ${products.join(', ') || 'N/A'}</p>`;
     }
 
+    // Send email
     await transporter.sendMail({
       from: `"${name}" <${email}>`,
       to: "marketing@kantiss.com",

@@ -9,23 +9,39 @@ function ProductShowcase() {
   return (
     <>
       <Container className="mt-20 sm:mt-24 lg:mt-32">
-        <Product4Row products={products} title="Hijab Polos" slug="polos"></Product4Row>
+        <Product4Row
+          products={products}
+          title="Hijab Polos"
+          slug="polos"
+        ></Product4Row>
       </Container>
 
       <Container className="mt-20 sm:mt-24 lg:mt-32">
-        <Product4Row products={products} title="Hijab Digital Print" slug="motif"></Product4Row>
-      </Container>
-      
-      <Container className="mt-20 sm:mt-24 lg:mt-32">
-        <Product4Row products={products} title="Pashmina & Bergo" slug="pashminaBergo"></Product4Row>
+        <Product4Row products={products} title="Hijab Motif Digital Print" slug="motif"></Product4Row>
       </Container>
 
       <Container className="mt-20 sm:mt-24 lg:mt-32">
-        <Product4Row products={products} title="Prayer Set" slug="prayerset"></Product4Row>
+        <Product4Row
+          products={products}
+          title="Pashmina & Bergo"
+          slug="pashminaBergo"
+        ></Product4Row>
       </Container>
-      
+
       <Container className="mt-20 sm:mt-24 lg:mt-32">
-        <Product4Row products={products} title="Apparel" slug="apparel"></Product4Row>
+        <Product4Row
+          products={products}
+          title="Prayer Set"
+          slug="prayerset"
+        ></Product4Row>
+      </Container>
+
+      <Container className="mt-20 sm:mt-24 lg:mt-32">
+        <Product4Row
+          products={products}
+          title="Apparel"
+          slug="apparel"
+        ></Product4Row>
       </Container>
     </>
   );
@@ -45,11 +61,9 @@ export default function Work() {
         title="Kebahagiaan tak bisa dibeli, tetapi kamu bisa membeli Kain."
       >
         <p>
-          Di PT. Kanti Sehati Sukses, kami menyediakan berbagai pilihan kain
-          berkualitas tinggi yang dirancang khusus untuk hijab dan kerudung.
-          Setiap produk kami dibuat dengan perhatian terhadap detail dan
-          menggunakan bahan terbaik, untuk memastikan kenyamanan, ketahanan, dan
-          gaya.
+          Kantiss menyediakan berbagai jenis produk berkualitas dengan harga
+          yang terjangkau. Beberapa produk yang kami tawarkan diantaranya kain,
+          hijab, produk garmen lainnya
         </p>
       </PageIntro>
 

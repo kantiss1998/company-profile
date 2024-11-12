@@ -29,6 +29,7 @@ function GalleryGrid() {
           key={index}
           className={`relative overflow-hidden rounded-lg shadow-lg aspect-w-1 aspect-h-1 transform transition duration-500 hover:scale-105 hover:rotate-2 hover:shadow-2xl ${img.span || ''}`}
         >
+          {/* Wrapper untuk aspect ratio */}
           <div className="relative w-full pt-[100%]">
             <Image
               src={img.src}

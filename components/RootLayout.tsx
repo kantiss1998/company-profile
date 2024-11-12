@@ -136,27 +136,30 @@ function NavigationItem({
   children: React.ReactNode;
 }) {
   return (
-    <Link href={href} className="group relative isolate -mx-6 bg-[#eee7f6] px-6 py-10 overflow-hidden">
-    <motion.div
-      className="relative z-10"
-      whileHover={{ scale: 1.05 }}
-      transition={{ type: "spring", stiffness: 300, damping: 10 }}
+    <Link
+      href={href}
+      className="group relative isolate -mx-6 bg-[#eee7f6] px-6 py-10 overflow-hidden"
     >
-      {children}
-    </motion.div>
-    <motion.div
-      className="absolute bottom-0 left-0 h-1 w-full bg-neutral-950"
-      initial={{ scaleX: 0 }}
-      whileHover={{ scaleX: 1 }}
-      transition={{ type: "spring", stiffness: 300, damping: 10 }}
-    />
-    <motion.div
-      className="absolute inset-0 bg-neutral-950/5"
-      initial={{ opacity: 0 }}
-      whileHover={{ opacity: 1 }}
-      transition={{ duration: 0.2 }}
-    />
-  </Link>
+      <motion.div
+        className="relative z-10"
+        whileHover={{ scale: 1.05 }}
+        transition={{ type: "spring", stiffness: 300, damping: 10 }}
+      >
+        {children}
+      </motion.div>
+      <motion.div
+        className="absolute bottom-0 left-0 h-1 w-full bg-neutral-950"
+        initial={{ scaleX: 0 }}
+        whileHover={{ scaleX: 1 }}
+        transition={{ type: "spring", stiffness: 300, damping: 10 }}
+      />
+      <motion.div
+        className="absolute inset-0 bg-neutral-950/5"
+        initial={{ opacity: 0 }}
+        whileHover={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+      />
+    </Link>
   );
 }
 
@@ -182,6 +185,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
   let closeRef = useRef<React.ElementRef<"button">>(null);
   let navRef = useRef<React.ElementRef<"div">>(null);
   let shouldReduceMotion = useReducedMotion();
+  let pathname = usePathname();
 
   useEffect(() => {
     function onClick(event: MouseEvent) {
@@ -283,11 +287,23 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
           layout
           className="relative isolate flex w-full flex-col pt-9"
         >
-          <GridPattern
-            className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
-            yOffset={-96}
-            interactive
-          />
+          <div className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full">
+            {pathname === "/" ? (
+              <video
+                className="absolute top-0 left-0 h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+                src="https://kantiss.com/id/themes/kantiss/video/BgWeb.mp4"
+              ></video>
+            ) : (
+              <GridPattern
+                className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
+                yOffset={-96}
+                interactive
+              />
+            )}
+          </div>
 
           <main className="w-full flex-auto">{children}</main>
 

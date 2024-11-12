@@ -46,7 +46,7 @@ export default function WorkPage({ params }: WorkPageProps) {
   if (title === "Polos") {
     title = "Hijab Polos"
   } else if (title === "Motif") {
-    title = "Hijab Digital Print"
+    title = "Hijab Motif Digital Print"
   } else if (title === "pashminaBergo") {
     title = "Pashmina & Bergo"
   } 
