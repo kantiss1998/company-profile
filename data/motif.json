@@ -1,42 +1,38 @@
 [
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    }
-  ]
+  {
+    "name": "Voal Premium",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Kain ini sangat halus dan lembut, memberikan kenyamanan saat dikenakan.",
+    "image": "https://i.imgur.com/nV6tcTy.jpeg"
+  },
+  {
+    "name": "Ultra Fine",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Dengan tekstur halus dan kemampuan menyerap warna dengan baik, kain Ultra Fine sering memberikan penampilan elegan dan mewah, menjadikannya pilihan populer untuk pakaian formal atau busana khusus.",
+    "image": "https://i.imgur.com/EXhHbkc.jpeg"
+  },
+  {
+    "name": "Voal Ribstop",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Meski kuat, Voal Ribstop tetap ringan dan bernapas, membuatnya nyaman dikenakan di iklim tropis atau cuaca panas.",
+    "image": "https://i.imgur.com/eOPiRjK.jpeg"
+  },
+  {
+    "name": "Poly PE",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Kain ini lebih tahan terhadap kerutan, sehingga hijab tetap rapi dan tidak memerlukan banyak setrika setelah dicuci.",
+    "image": "https://i.imgur.com/NapuiUK.jpeg"
+  },
+  {
+    "name": "Voal Basic",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Kain ini menawarkan kenyamanan, perawatan mudah, dan kepraktisan dalam penggunaan.",
+    "image": "https://i.imgur.com/BwjkHzT.jpeg"
+  },
+  {
+    "name": "Voal Ultra Silky",
+    "material": "110 cm x 110 cm",
+    "deskripsi": "Voal Ultra Silky lebih mudah dibentuk dan ditata, membuatnya ideal untuk berbagai gaya hijab.",
+    "image": "https://i.imgur.com/94B5M67.jpeg"
+  }
+]

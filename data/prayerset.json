@@ -1,42 +1,38 @@
 [
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    }
-  ]
+  {
+    "name": "Armany Silk",
+    "material": "Ukuran Semua",
+    "deskripsi": "Bahan ini memberikan kenyamanan maksimal, penampilan mewah, dan perawatan mudah.",
+    "image": "https://i.imgur.com/yrvUzPT.jpeg"
+  },
+  {
+    "name": "Taslan",
+    "material": "Ukuran Semua",
+    "deskripsi": "Meski tahan air, kain Taslan menawarkan sirkulasi udara yang baik dan nyaman dipakai dalam cuaca panas.",
+    "image": "https://i.imgur.com/FJtcX4a.jpeg"
+  },
+  {
+    "name": "Balo telli",
+    "material": "45 x 90 cm",
+    "deskripsi": "Pilihan yang sangat praktis dan nyaman untuk penggunaan sehari-hari. Kain balotelli yang lembut, ringan, tahan lama, dan mudah dirawat membuat sajadah ini ideal untuk digunakan secara rutin.",
+    "image": "https://i.imgur.com/PyNe5aN.jpeg"
+  },
+  {
+    "name": "Polyester Microfiber",
+    "material": "220 cm x 120 cm",
+    "deskripsi": "Kain yang ringan, tahan lama, dan mudah dirawat.",
+    "image": "https://i.imgur.com/ZeiVnvv.jpeg"
+  },
+  {
+    "name": "Rayon",
+    "material": "Ukuran Semua",
+    "deskripsi": "Rayon memiliki sifat penyerapan kelembaban yang sangat baik, membuat topi rayon sangat nyaman, terutama dalam cuaca panas atau selama aktivitas berkepanjangan. Ini membantu menjaga kepala tetap kering dan nyaman bahkan saat dipakai untuk waktu yang lama.",
+    "image": "https://i.imgur.com/3hIYihx.jpeg"
+  },
+  {
+    "name": "Rayon Super",
+    "material": "Ukuran Semua",
+    "deskripsi": "Super rayon memiliki tekstur yang lebih halus, memberikan pakaian atau aksesori yang terbuat darinya penampilan yang lebih rapi dan lebih halus. Bahkan setelah dicuci, kain tetap terlihat rapi dan tidak mudah kusut.",
+    "image": "https://i.imgur.com/Hvrzcv2.jpeg"
+  }
+]

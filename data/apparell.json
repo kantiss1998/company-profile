@@ -1,42 +1,20 @@
 [
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    }
-  ]
+  {
+    "name": "Premium Wolly",
+    "material": "S/M dan L/XL",
+    "deskripsi": "Celana ini sangat nyaman, elegan, dan praktis untuk berbagai acara. Dengan kain yang tebal namun lembut, celana kulot ini memberikan tampilan yang stylish dan elegan sambil tetap nyaman dipakai. Cocok untuk acara formal maupun kasual, dan dapat dipadukan dengan berbagai jenis atasan.",
+    "image": "https://i.imgur.com/5z1rOxk.jpeg"
+  },
+  {
+    "name": "Baby Corduroy",
+    "material": "S/M dan L/XL",
+    "deskripsi": "Meskipun memiliki tekstur yang relatif tebal, baby corduroy tetap dapat bernapas, terutama jika terbuat dari katun. Ini membuatnya cocok untuk cuaca sedang hingga dingin. Menawarkan kenyamanan yang luar biasa, sempurna untuk pakaian sehari-hari atau acara formal.",
+    "image": "https://i.imgur.com/tPBNrSc.jpeg"
+  },
+  {
+    "name": "Katun",
+    "material": "S/M dan L/XL",
+    "deskripsi": "Katun memiliki banyak manfaat, termasuk kenyamanan, penyerapan keringat yang baik, dan mudah dalam perawatan.",
+    "image": "https://i.imgur.com/dJKK5Xq.jpeg"
+  }
+]

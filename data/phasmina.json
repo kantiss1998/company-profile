@@ -1,42 +1,26 @@
 [
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    }
-  ]
+  {
+    "name": "Baby Doll",
+    "material": "180 cm x 75 cm",
+    "deskripsi": "Ideal untuk semua kegiatan, baik formal, pakaian sehari-hari, maupun acara khusus.",
+    "image": "https://i.imgur.com/3lWK3W4.jpeg"
+  },
+  {
+    "name": "Jersey",
+    "material": "180 cm x 75 cm",
+    "deskripsi": "Kain jersey bersifat elastis dan ringan. Kombinasi kedua sifat ini memberikan kenyamanan yang luar biasa, membuatnya sempurna untuk pakaian sehari-hari maupun acara formal.",
+    "image": "https://i.imgur.com/sX74S0y.jpeg"
+  },
+  {
+    "name": "Spandek Balon",
+    "material": "Ukuran Semua",
+    "deskripsi": "Terbuat dari bahan elastis dan fleksibel, sering mengandung spandeks (atau elastane), kain ini meregang dan menawarkan kenyamanan.",
+    "image": "https://i.imgur.com/OV1KLvU.jpeg"
+  },
+  {
+    "name": "Kaos Rayon",
+    "material": "Ukuran Semua",
+    "deskripsi": "Sempurna untuk mereka yang mencari hijab yang praktis, nyaman, dan sejuk untuk penggunaan sehari-hari.",
+    "image": "https://i.imgur.com/mluhK3C.jpeg"
+  }
+]
